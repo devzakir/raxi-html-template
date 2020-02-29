@@ -1,0 +1,835 @@
+/*=====================================================
+    
+    Raxi Minimal Portfolio HTML5 Template
+
+    Template Name    :- Raxi
+    Teamplate Author :- Zakir Hossen
+    Designed By      :- Zakir Hossen
+	Website 		 :- zakirct.com, zakir-hossen.blogspot.com
+    Version          :- 1.0
+
+    Table of Content :-
+
+    1. Banner
+        1.1 Header
+    2. About Me
+    3. Services 
+    4. Portfolio    
+    5. Contact
+
+=====================================================*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0px;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Common Style */
+
+.navbar-default .navbar-nav > li > a,
+.social_n ul li i,
+.port_menu ul li,
+.overlay,
+.overlay i,
+.submit,
+.footer ul li i,
+.footer p > a,
+.loadmore a,
+.banner_inner > a,
+.banner_inner p a > i,
+.ser_one i,
+.banner_inner p a {
+    transition: all .5s linear;
+}
+
+.banner_inner h1,
+.about_right h2,
+.a_head h3,
+.headline h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.sctbp {
+    padding: 120px 0px 60px;
+}
+
+footer.sctbp {
+    padding: 60px 0px 50px;
+}
+
+.headline h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.headline {
+    padding: 0px 15px;
+}
+
+
+/* Banner Section */
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.40);
+    z-index: -1;
+}
+
+.banner_inner {
+    padding: 280px 0px;
+    color: #fff;
+    z-index: 1111;
+}
+
+.banner_inner h1 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0) linear-gradient(rgba(255, 0, 0, 0), rgba(200, 200, 200, 1), rgba(255, 0, 0, 0)) repeat scroll 0 0;
+}
+
+.banner_inner p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 24px;
+    margin: 20px 0px;
+    width: 40%;
+}
+
+.banner_inner p a {
+    color: #fff;
+    display: inline-block;
+    font-weight: 800;
+}
+
+.banner_inner p a > i {
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.banner_inner p a:hover > i,
+.banner_inner p a:hover {
+    color: #969696;
+}
+
+.banner_inner > a {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: 20px 0px;
+}
+
+.banner_inner > a:hover {
+    color: #fff;
+    background-color: rgba(227, 227, 227, 0.40);
+}
+
+
+/* Header Part */
+
+.full_header {
+    background-color: rgba(3, 3, 3, 0);
+    color: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1111;
+}
+
+.sticky {
+    border-color: transparent;
+    box-shadow: 0 0 2px 1px #444;
+    left: 0;
+    background-color: rgb(77, 77, 77);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: all .5s linear;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: #e7e7e7;
+}
+
+.full_header .navbar {
+    margin-bottom: 0;
+    min-height: 50px;
+    position: relative;
+    border: none;
+}
+
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 15px;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 7px;
+}
+
+.navbar-default .navbar-brand img {}
+
+.main_nav ul {
+    margin: 20px 0px;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 10px 30px;
+    font-size: 14px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.full_header .navbar-default .navbar-nav > .active > a {
+    background-color: rgba(227, 227, 227, 0.40);
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: rgba(227, 227, 227, 0.40);
+    color: #fff;
+}
+
+
+/* About Part */
+
+.about {}
+
+.main_about_top {
+    padding: 40px 0px;
+}
+
+.about_row {}
+
+.a_head h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #444444;
+    font-weight: 600
+}
+
+.about_left {}
+
+.about_right {}
+
+.about_right h2 {
+    margin-bottom: 20px;
+}
+
+.about_me_text {
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 26px;
+}
+
+.about_right {}
+
+.about_right table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.about_right table td {
+    width: 50%;
+}
+
+.about_right table tr td:first-child {
+    font-weight: 600;
+}
+
+.about_right table td,
+th {
+    text-align: left;
+    padding: 5px 0px;
+    font-size: 16px;
+    color: #444;
+}
+
+.social_n ul {
+    display: block;
+}
+
+.social_n ul li {
+    float: left;
+}
+
+.social_n ul li a {
+    display: block;
+    margin-right: 7px;
+}
+
+.social_n ul li i {
+    font-size: 18px;
+    padding: 8px 12px;
+    color: #444;
+}
+
+.social_n ul li a:hover i {
+    background-color: rgba(227, 227, 227, 0.50);
+    color: #444;
+}
+
+.about_button {
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.about_button a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #acacac;
+    color: #222222;
+    font-weight: 600;
+}
+
+.about_button a:hover {
+    background-color: rgba(227, 227, 227, 0.40);
+    color: #444;
+}
+
+
+/* Services */
+
+.sev_row {}
+
+.ser_one {
+    padding: 20px;
+    transition: all 2s linear;
+}
+
+.ser_one i {
+    font-size: 35px;
+    color: #4b4b4b;
+}
+
+.ser_one:hover i {
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}
+
+
+/* Portfolio */
+
+.portfolio {
+    display: flex;
+}
+
+.headline {}
+
+.port_menu {}
+
+.port_menu ul {
+    margin-top: 25px;
+}
+
+.port_menu ul li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 7px 20px;
+    text-transform: capitalize;
+    border: 1px solid gray;
+    margin-left: 1px;
+    color: #444;
+    cursor: pointer;
+}
+
+.port_menu ul li.active,
+.port_menu ul li:hover {
+    background-color: rgba(227, 227, 227, 0.40);
+}
+
+.port_row {
+    margin: 20px 0px;
+}
+
+.port_one {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    margin: 15px 0px;
+}
+
+.port_one img {
+    width: auto;
+    height: 100%;
+    filter: grayscale(55%);
+    -webkit-filter: grayscale(55%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    margin: auto;
+    opacity: 0;
+    transform: scale(0.4441);
+}
+
+.overlay h4 {
+    color: #fff;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.overlay i {
+    font-size: 20px;
+    padding: 7px 12px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.port_one:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.overlay i:hover {
+    color: #eee;
+    background-color: rgba(227, 227, 227, 0.40);
+    ;
+}
+
+.loadmore a {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #444;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 20px auto 10px;
+    border: 1px solid #888;
+}
+
+.loadmore a:hover {
+    background-color: rgba(227, 227, 227, 0.40);
+    ;
+    color: #444;
+}
+
+
+/* Contact */
+
+.c_info_row {
+    padding: 20px 0px;
+}
+
+.c_form_row {
+    padding: 5px 15px;
+}
+
+.c_info {}
+
+.c_info i {
+    font-size: 25px;
+    color: #444;
+    padding: 0px 10px 0px 0px;
+    float: left;
+    margin: 5px 0px 0px 0px;
+}
+
+.c_info p {
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 0px 5px 5px;
+}
+
+.in_h {
+    width: 49%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #c4c4c4;
+    color: #444;
+    border-radius: 2px;
+    margin: 0px 0px 10px;
+}
+
+.in_h:active,
+.in_h:focus {
+    border-color: #444;
+}
+
+.in_h_fr {
+    float: right;
+}
+
+.msg {
+    width: 100%;
+    height: 150px;
+    padding: 15px 20px;
+    resize: none;
+}
+
+.submit {
+    padding: 10px 50px;
+    font-size: 16px;
+    border: 1px solid #c4c4c4;
+    color: #444;
+    border-radius: 2px;
+    background-color: transparent;
+    margin: 0px 0px 10px;
+}
+
+.submit:hover {
+    background-color: rgba(227, 227, 227, 0.40);
+    color: #444;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #2e2e2e;
+}
+
+.footer ul {
+    display: inline-block;
+}
+
+.footer ul li {
+    float: left;
+}
+
+.footer ul li a {
+    display: block;
+}
+
+.footer ul li i {
+    font-size: 20px;
+    color: #888888;
+    padding: 10px 15px;
+    border: 1px solid #888888;
+    margin-right: 5px;
+}
+
+.footer ul li i:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+.footer p {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 10px 0px;
+    line-height: 28px;
+    color: #888888;
+}
+
+.footer p > a {
+    color: #888;
+}
+
+.footer p > a:hover {
+    color: #ff4440;
+}
+
+@media(min-width: 320px)and (max-width:360px) {
+    .navbar-default .navbar-brand {
+        color: #fff;
+        font-size: 20px;
+        padding: 15px 0px;
+        padding-top: 7px;
+        width: 60%;
+    }
+    .navbar-toggle {
+        padding: 10px 10px;
+        margin-top: 12px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        border-radius: 1px;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #9D9E9F;
+        color: #fff;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding: 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .navbar-collapse {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .main_nav ul {
+        margin: 0px;
+        background-color: #2E2E2E;
+    }
+    .banner_inner {
+        padding: 80px 0px;
+        color: #fff;
+        z-index: 1111;
+    }
+    .banner_inner h1 {
+        font-size: 28px;
+        color: #fff;
+    }
+    .banner_inner p {
+        font-size: 14px;
+        color: #fff;
+        line-height: 22px;
+        margin: 15px 0px;
+        width: 91%;
+    }
+    .sctbp {
+        padding: 80px 0px 40px;
+    }
+    .headline h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .c_info {
+        margin: 10px 0px;
+    }
+    .in_h {
+        width: 100%;
+    }
+    .submit {
+        width: 100%;
+    }
+    .banner_inner > a {
+        padding: 6px 15px;
+        margin-top: 30px 0px;
+    }
+    .footer ul li i {
+        font-size: 17px;
+        padding: 8px 12px;
+        margin-right: 5px;
+    }
+    .footer p {
+        font-size: 16px;
+        text-transform: capitalize;
+        margin: 10px 0px;
+        line-height: 24px;
+        color: #888888;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .navbar-brand > img {
+        display: block;
+        margin-top: 10px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .banner_inner {
+        padding: 180px 0px;
+        color: #fff;
+    }
+    .banner_inner h1 {
+        font-size: 45px;
+    }
+    .banner_inner p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px 0px;
+        width: 60%;
+    }
+
+    .banner_inner > a {
+        padding: 5px 16px;
+        border: 1px solid #fff;
+        margin-right: 5px;
+        margin-top: 20px 0px;
+    }
+    .footer ul li i {
+        font-size: 16px;
+        padding: 8px 12px;
+        margin-right: 5px;
+    }
+    .footer p {
+        font-size: 16px;
+        margin: 5px 0px;
+        line-height: 24px;
+    }
+    .headline h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .a_head h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .about_me_text {
+        font-size: 15px;
+        text-transform: capitalize;
+        line-height: 24px;
+    }
+    .about_right table td,
+    th {
+        border: 1px solid #c3c3c3;
+        text-align: left;
+        padding: 3px 8px;
+        font-size: 15px;
+    }
+    .social_n ul li i {
+        font-size: 15px;
+        padding: 8px;
+        color: #444;
+    }
+    .sctbp {
+        padding: 100px 0px 40px;
+    }
+    .ser_one {
+        padding: 10px 0px;
+        margin: 10px 0px;
+    }
+    .ser_one i {
+        font-size: 25px;
+    }
+    .ser_one h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .port_menu ul li {
+        font-size: 14px;
+        padding: 7px 10px;
+        margin-left: 1px;
+    }
+
+    .port_one {
+        height: 150px;
+        width: 100%;
+        overflow: hidden;
+        border: 1px solid #e2e2e2;
+        position: relative;
+        margin: 10px 0px;
+    }
+    .sm-pd-10 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .overlay {
+        padding: 5px 0px;
+    }
+    .overlay h4 {
+        margin-bottom: 10px;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .overlay i {
+        font-size: 16px;
+        padding: 5px 9px;
+        border: 1px solid #fff;
+        color: #fff;
+        text-align: center;
+    }
+    .loadmore a {
+        font-size: 15px;
+        padding: 8px 25px;
+        margin: 10px auto;
+        border: 1px solid #888;
+    }
+    .c_info_row {
+        padding: 10px 0px;
+    }
+    .c_info p {
+        display: inline-block;
+        font-size: 15px;
+        margin: 5px 0px 5px 5px;
+    }
+    .c_info {
+        padding: 0px 4px;
+    }
+
+    .in_h {
+        width: 49%;
+        padding: 7px 10px;
+        font-size: 15px;
+        border-radius: 2px;
+        margin: 0px 0px 10px;
+    }
+    .msg {
+        width: 100%;
+        height: 150px;
+        padding: 15px 20px;
+        resize: none;
+    }
+}
